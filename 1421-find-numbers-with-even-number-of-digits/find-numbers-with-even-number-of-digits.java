@@ -18,7 +18,6 @@ class Solution {
         }
 
     boolean Even(int nums){
-        int numberOfDigits=numberOfDigits(nums);
         return numberOfDigits(nums)%2==0;
         }
 }
